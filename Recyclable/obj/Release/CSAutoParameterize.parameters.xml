@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL8011.site4now.net;Initial Catalog=db_ab0abb_recyclable;User Id=db_ab0abb_recyclable_admin;Password=Ry363265" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rnsca\\Downloads\\Recyclable\\Recyclable\\Recyclable\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

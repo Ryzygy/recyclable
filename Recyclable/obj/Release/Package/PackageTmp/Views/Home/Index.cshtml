@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/homepage.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>@ViewBag.Title</h2>
+        <div class="button-container">
+            <button class="button" onclick="location.href='@Url.Action("Index", "RecyclableTypes")'">Recyclable Types</button>
+            <button class="button" onclick="location.href='@Url.Action("Index", "RecyclableItems")'">Recyclable Items</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Recyclable.Models.RecyclableItem>
+
+<h2>Recyclable Items</h2>
+
+<p>
+    @Html.ActionLink("Add New Item", "Create") |
+    @Html.ActionLink("Back to Home", "Index", "Home")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.RecyclableType.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.Weight)</th>
+            <th>@Html.DisplayNameFor(model => model.ComputedRate)</th>
+            <th>@Html.DisplayNameFor(model => model.ItemDescription)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-@item.Id">
+                <td>@Html.DisplayFor(modelItem => item.RecyclableType.Type)</td>
+                <td>@Html.DisplayFor(modelItem => item.Weight)</td>
+                <td>@Html.DisplayFor(modelItem => item.ComputedRate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ItemDescription)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    <a href="javascript:void(0);" class="delete-link" data-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="~/Scripts/js/recyclableitem.js"></script>

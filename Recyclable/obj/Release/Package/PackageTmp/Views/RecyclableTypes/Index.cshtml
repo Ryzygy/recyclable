@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Recyclable.Models.RecyclableType>
+
+<h2>Recyclable Types</h2>
+
+<p>
+    @Html.ActionLink("Add New Type", "Create") |
+    @Html.ActionLink("Back to Home", "Index", "Home")
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.Rate)</th>
+            <th>@Html.DisplayNameFor(model => model.MinKg)</th>
+            <th>@Html.DisplayNameFor(model => model.MaxKg)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-@item.Id">
+                <td>@Html.DisplayFor(modelItem => item.Type)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rate)</td>
+                <td>@Html.DisplayFor(modelItem => item.MinKg)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaxKg)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    <a href="javascript:void(0);" class="delete-link" data-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="~/Scripts/js/recyclabletype.js"></script>

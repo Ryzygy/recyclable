@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|c:\\users\\rnsca\\onedrive\\desktop\\recyclable\\recyclable\\recyclable\\recyclable\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\models\\recyclableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\models\\recyclableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\models\\recyclabletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\models\\recyclabletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\views\\recyclableitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\views\\recyclableitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\views\\recyclableitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\views\\recyclableitems\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\views\\recyclableitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\views\\recyclableitems\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\views\\recyclabletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\views\\recyclabletypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\recyclable\\views\\recyclabletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{923009E7-62F2-4EEF-B5DB-BDCB4B4292A4}|Recyclable\\Recyclable.csproj|solutionrelative:recyclable\\views\\recyclabletypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Web.config",
+              "RelativeDocumentMoniker": "Recyclable\\Web.config",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Web.config",
+              "RelativeToolTip": "Recyclable\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-17T15:28:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\packages.config",
+              "RelativeDocumentMoniker": "Recyclable\\packages.config",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\packages.config",
+              "RelativeToolTip": "Recyclable\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-17T12:23:52.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecyclableItem.cs",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Models\\RecyclableItem.cs",
+              "RelativeDocumentMoniker": "Recyclable\\Models\\RecyclableItem.cs",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Models\\RecyclableItem.cs",
+              "RelativeToolTip": "Recyclable\\Models\\RecyclableItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:15:43.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecyclableType.cs",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Models\\RecyclableType.cs",
+              "RelativeDocumentMoniker": "Recyclable\\Models\\RecyclableType.cs",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Models\\RecyclableType.cs",
+              "RelativeToolTip": "Recyclable\\Models\\RecyclableType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T12:15:40.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "Recyclable\\Views\\RecyclableItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Index.cshtml",
+              "RelativeToolTip": "Recyclable\\Views\\RecyclableItems\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:15:25.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Recyclable\\Views\\RecyclableItems\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Edit.cshtml",
+              "RelativeToolTip": "Recyclable\\Views\\RecyclableItems\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:15:21.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "Recyclable\\Views\\RecyclableItems\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableItems\\Create.cshtml",
+              "RelativeToolTip": "Recyclable\\Views\\RecyclableItems\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:15:17.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Recyclable\\Views\\RecyclableTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableTypes\\Edit.cshtml",
+              "RelativeToolTip": "Recyclable\\Views\\RecyclableTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:15:12.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Recyclable\\Views\\RecyclableTypes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rnsca\\OneDrive\\Desktop\\Recyclable\\Recyclable\\Recyclable\\Recyclable\\Views\\RecyclableTypes\\Create.cshtml",
+              "RelativeToolTip": "Recyclable\\Views\\RecyclableTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T12:15:08.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
