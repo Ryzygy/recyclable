@@ -56,5 +56,44 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
-    <script src="~/Scripts/js/recyclableitem.js"></script>
+    <script>
+        function resetForm() {
+            $('#RecyclableTypeId, #ItemDescription, #Weight, #ComputedRate').val('');
+        }
+
+        function updateComputedRate() {
+            var weight = parseFloat($('#Weight').val().replace(',', '.'));
+            var recyclableTypeId = $('#RecyclableTypeId').val();
+
+            if (isNaN(weight) || weight <= 0) {
+                return $('#ComputedRate').val('');
+            }
+
+            if (recyclableTypeId) {
+                $.get('/RecyclableItems/GetRecyclableTypeRate', { recyclableTypeId }, function (response) {
+                    if (response.success && !isNaN(response.rate)) {
+                        var computedRate = (response.rate * weight).toFixed(2);
+
+                        if (weight < response.minKg || weight > response.maxKg) {
+                            alert(`The weight must be between ${response.minKg} kg and ${response.maxKg} kg.`);
+                            return $('#ComputedRate').val('');
+                        }
+
+                        $('#ComputedRate').val(computedRate);
+                    } else {
+                        $('#ComputedRate').val('');
+                    }
+                }).fail(function () {
+                    $('#ComputedRate').val('');
+                });
+            } else {
+                $('#ComputedRate').val('');
+            }
+        }
+
+        $(document).ready(function () {
+            $('#RecyclableTypeId').change(updateComputedRate);
+            $('#Weight').keyup(updateComputedRate);
+        });
+    </script>
 }
