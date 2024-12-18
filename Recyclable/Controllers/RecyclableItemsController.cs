@@ -54,23 +54,27 @@ namespace Recyclable.Controllers
 
         public ActionResult Create()
         {
-            var recyclableTypes = _recyclableItemService.GetAllRecyclableTypes();
-            var selectListItems = recyclableTypes.Select(rt => new SelectListItem
             {
-                Value = rt.Id.ToString(),
-                Text = rt.Type
-            }).ToList();
+                var recyclableTypes = _recyclableItemService.GetAllRecyclableTypes();
 
-            selectListItems.Insert(0, new SelectListItem
-            {
-                Value = "",
-                Text = "--- Select Type ---",
-                Selected = true
-            });
+                var selectListItems = recyclableTypes.Select(rt => new SelectListItem
+                {
+                    Value = rt.Id.ToString(),
+                    Text = rt.Type
+                }).ToList();
 
-            ViewBag.RecyclableTypeId = new SelectList(selectListItems, "Value", "Text");
+                var recyclableItem = new RecyclableItem
+                {
+                    RecyclableTypeId = 0,
+                    ItemDescription = "",
+                    Weight = 0,
+                    ComputedRate = 0
+                };
 
-            return View();
+                ViewBag.RecyclableTypeId = new SelectList(selectListItems, "Value", "Text");
+
+                return View(recyclableItem);
+            }
         }
 
         [HttpPost]
